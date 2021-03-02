@@ -88,7 +88,7 @@ GRANT DELETE , INSERT , SELECT , UPDATE
 ON PATIENT/INFO TO PUBLIC ; 
   
 GRANT ALTER , DELETE , INDEX , INSERT , REFERENCES , SELECT , UPDATE   
-ON PATIENT/INFO TO NODEDEV WITH GRANT OPTION ; 
+ON PATIENT/INFO TO MATTDEV WITH GRANT OPTION ; 
 
 insert into patient.info values(DEFAULT,'Doe','John','Ham','1234 North Road','','Las Vegas','USA','NV',89105,8889991234,'W',234,111224444,'White','M','UH','','','','M','Jane Doe','1975-08-01');
 insert into patient.info values(DEFAULT,'Doe','Jane','Cindy','1234 North Road','','Las Vegas','USA','NV',89105,8889995648,'W',234,145225844,'White','W','UH','','','','M','John Doe','1977-09-01');
